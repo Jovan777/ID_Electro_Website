@@ -52,19 +52,27 @@
   --font-body: "DM Sans", sans-serif;
   --font-heading: "Playfair Display", serif;
   --font-caveat: "Caveat", cursive;
-  --color-primary: #fdb714;
-  --color-secondary: #60060f;
-  --color-heading: #170006;
-  --color-violet: #781921;
-  --color-default: #5c5c54;
-  --color-default-two: #606056;
-  --color-sec-bg: #f1f1e9;
-  --color-gray: #bbb6b7;
-  --color-pink: #ffeff1;
-  --color-dark: #0F172A;
-  --color-white: #fff;
-  --color-black: #000;
-  --color-body: #fff; }
+
+ /* Dominantne boje */
+ --color-primary: #87CEEB; /* Svetlo plava - osnovna boja */
+ --color-secondary: #87CEEB; /* Svetlo plava - za kontrast i akcente */
+
+ /* Sekundarne boje */
+ --color-heading: #87CEEB; /* Svetlo plava za naslove */
+ --color-violet: #87CEEB; /* Svetlo plava (zamena za tamnu crvenu) */
+ --color-default: #5c5c54; /* Neutralna tamno siva za tekst */
+ --color-default-two: #606056; /* Svetlija tamno siva za manje bitne elemente */
+
+ /* Pozadinske i neutralne boje */
+ --color-sec-bg: #f1f1e9; /* Svetlo siva za neutralne pozadine */
+ --color-gray: #bbb6b7; /* Svetla siva za linije i delikatne elemente */
+ --color-pink: #E6F7FF; /* Svetlo plava nijansa za akcente */
+ --color-dark: #0F172A; /* Tamno siva za pozadinu */
+ --color-white: #fff; /* Bela za osnovne pozadine i kontrast */
+
+ /* Telo sajta */
+ --color-body: #fff; /* Bela kao osnovna pozadina */
+ }
 
 /* reset css start */
 :root {
@@ -2570,7 +2578,7 @@ body[data-aos-easing=ease] [data-aos] {
       transition: 0.4s; }
       .header-top .xb-info ul li a:hover {
         border-radius: 2px;
-        background: #60060f; }
+        background: #0b77b6; }
 
 @media (max-width: 991px) {
   .header-area .xb-header {
@@ -8757,7 +8765,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
       -o-transition: 0.4s;
       transition: 0.4s; }
     .hs-footer-contact .xb-item--social_link li a:hover {
-      background: #d9293a; }
+      background: #09a0ce; }
       .hs-footer-contact .xb-item--social_link li a:hover i {
         color: var(--color-white); }
       .hs-footer-contact .xb-item--social_link li a:hover svg path {
@@ -8784,8 +8792,8 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
 .footer-style-three .footer-widget .xb-item--details {
   color: #CFD0D8; }
 .footer-style-three .footer-widget .xb-item--links-btn .thm-btn:hover {
-  background-color: #D9293A;
-  border-color: #D9293A;
+  background-color: #26ade2;
+  border-color: #296fd9;
   color: var(--color-white); }
 
 .clg-footer-newsletter {
