@@ -1,5 +1,5 @@
 /* Theme Color */
-.contact-page-section .contact-info li a:hover                                                           
+.contact-page-section .contact-info li a:hover                                                            
 .shipping-block .inner-box h3,
 .cart-section .totals-table .col:last-child,
 .cart-table tbody tr .remove-btn:hover,
@@ -26,12 +26,12 @@
 .sidebar .related-posts .post a:hover,
 .category-list li a:hover,
 .shop-item .lower-content .price,
-.sort-by .ui-button .ui-icon,
+sort-by .ui-button .ui-icon,
 .comments-area .comment-box .reply-btn,
 .comments-area .comment-box .rating,
-.group-title h2,
-.brochure-box .inner .icon,
-.blog-cat li a:before,
+group-title h2,
+brochure-box .inner .icon,
+blog-cat li a:before,
 .latest-news .post .post-info,
 .latest-news .post:hover h3 a,
 .cat-list li.active a span,
@@ -69,8 +69,8 @@
 .project-section-two .filters .filter.active,
 .project-section-two .filters .filter:hover,
 .project-section .bottom-box .text-box .link,
-.social-icon-one li a:hover,
-.gallery-item .overlay-box .caption-box h4 a:hover,
+social-icon-one li a:hover,
+gallery-item .overlay-box .caption-box h4 a:hover,
 .project-tab .product-tab-btns .p-tab-btn:hover,
 .project-tab .product-tab-btns .p-tab-btn.active-btn,
 .fluid-section-one .content-column .inner-box .services li .icon,
@@ -97,9 +97,8 @@
 .btn-style-four,
 .theme_color,
 a{
-	color: #bf8c4d;
+	color: #003366;
 }
-
 
 
 /*=== Background Color ===*/
@@ -147,7 +146,7 @@ a.ui-button:active, .ui-button:active,
 .project-section-two.alternate .filters .filter-tabs li:before,
 .project-tab .owl-next:hover,
 .project-tab .owl-prev:hover,
-.gallery-item .overlay-box .btn-box a:hover,
+gallery-item .overlay-box .btn-box a:hover,
 .project-section .sec-title h2:before,
 .feature-block .inner:before,
 .header-style-two .search-box-btn,
@@ -161,14 +160,14 @@ a.ui-button:active, .ui-button:active,
 .btn-style-one,
 .comment-form .form-group input[type="submit"]:hover,
 .comment-form .form-group button:hover{
-	background-color: #bf8c4d;
+	background-color: #003366;
 }
 
 /*Border Color*/
 
 .checkout-form input:focus,
-.checkout-form select:focus,
-.checkout-form textarea:focus,
+checkout-form select:focus,
+checkout-form textarea:focus,
 .contact-page-section .contact-info li .icon,
 .contact-form-two .form-group input:focus,
 .contact-form-two .form-group select:focus,
@@ -206,13 +205,13 @@ a.ui-button:active, .ui-button:active,
 .comment-form .form-group input:focus,
 .comment-form .form-group select:focus,
 .comment-form .form-group textarea:focus,
-.tag-list li a:hover,
+tag-list li a:hover,
 .sidebar .search-box .form-group input:focus,
-.author-box .social-icon li a,
+author-box .social-icon li a,
 .pricing-table .inner-box:hover,
 .call-to-action .btn-column .theme-btn,
-.styled-pagination li a:hover,
-.styled-pagination li.active a,
+styled-pagination li a:hover,
+styled-pagination li.active a,
 .related-project-section .owl-next:hover,
 .related-project-section .owl-prev:hover,
 .help-box-two .inner .theme-btn,
@@ -223,17 +222,17 @@ a.ui-button:active, .ui-button:active,
 .main-header,
 .btn-style-four,
 .btn-style-one{
-	border-color: #bf8c4d;
+	border-color: #003366;
 }
 
 .payment-box .payment-options li .radio-option label .small-text:before{
-	border-bottom-color: #bf8c4d;
+	border-bottom-color: #003366;
 }
 
 @media only screen and (max-width: 767px){
 
 	.main-menu .navbar-header .navbar-toggler .icon{
-		color:#bf8c4d;
+		color:#003366;
 	}
 	
 	.main-menu .navbar-header .navbar-toggle,
@@ -251,7 +250,7 @@ a.ui-button:active, .ui-button:active,
 	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
 	.main-menu .navbar-collapse > .navigation > li.current > a,
 	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
-		background-color:#bf8c4d;
+		background-color:#003366;
 	}
 	
 }
