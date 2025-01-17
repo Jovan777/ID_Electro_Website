@@ -31,25 +31,10 @@
         <header class="main-header">
 
             <!-- Header Upper -->
-            <div class="header-upper">
+            <div class="header-upper" style="padding: 5px 0;">
                 <div class="auto-container">
                     <div class="clearfix">
-                        <!-- Logo Section -->
-                        <div class="logo-outer" style="display: flex; align-items: center; gap: 15px;">
-                            <!-- Logo -->
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="images/Toma/Logo2-Photoroom.png" width="125px" height="125px" alt=""
-                                        title="">
-                                </a>
-                            </div>
-                            <!-- Text next to Logo -->
-                            <div class="logo-text" style="font-size: 24px; font-weight: bold; color: #333;">
-                                <div class="logo-text" style="font-size: 24px; font-weight: bold; color: #333;">
-                                    <a href="index.html">ID Elektro</a>
-                                </div>
-                            </div>
-                        </div>
+
 
                         <!-- Upper Right Section -->
                         <div class="upper-right clearfix">
@@ -76,7 +61,7 @@
             </div>
 
             <!-- Header Lower -->
-            <div class="header-lower">
+            <div class="header-lower" style="padding: 10px 0;">
                 <div class="auto-container">
                     <div class="inner-container clearfix">
                         <div class="nav-outer">
@@ -92,18 +77,17 @@
                                 </div>
 
                                 <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
-                                    <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="#">Početna</a>
-
+                                    <ul class="navigation clearfix" style="font-size: 18px;">
+                                        <li ><a href="index.html" style="font-size:1.5rem">Početna</a>
                                         </li>
-                                        <li class="dropdown"><a href="#">O Nama </a>
+                                        <li class="current dropdown"><a href="#" style="font-size:1.5rem">O nama</a>
                                             <ul>
                                                 <li><a href="about.html">ID Elektro</a></li>
                                                 <li><a href="team.html">Naš Tim</a></li>
                                                 <li><a href="pricing.html">Cene</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="#">Usluge</a>
+                                        <li class="dropdown"><a href="#" style="font-size:1.5rem">Usluge</a>
                                             <ul>
                                                 <li><a href="services.html">Sve usluge</a></li>
                                                 <li><a href="service-detail.html">Instalacioni radovi</a></li>
@@ -116,13 +100,13 @@
                                                 <li><a href="service-detail.html">Hitne intervencije</a></li>
                                             </ul>
                                         </li>
-                                        <li class="dropdown"><a href="projects.html">Projekti</a>
+                                        <li class="dropdown"><a href="projects.html"
+                                                style="font-size:1.5rem">Projekti</a>
                                             <ul>
                                                 <li><a href="projects.html">Pogledajte sve naše projekte</a></li>
                                             </ul>
                                         </li>
-
-                                        <li><a href="contact.html">Kontakt</a></li>
+                                        <li><a href="contact.html" style="font-size:1.5rem">Kontakt</a></li>
                                     </ul>
                                 </div>
                             </nav><!-- Main Menu End-->
@@ -130,11 +114,9 @@
 
                         <!-- Outer Box -->
                         <div class="outer-box">
-
-
                             <!-- Btn Box -->
                             <div class="btn-box">
-                                <a href="about.html" class="theme-btn btn-style-one">Zakažite termin</a>
+                                <a href="about.html" class="theme-btn btn-style-one" style="font-size:2rem">Zakažite termin</a>
                             </div>
                         </div>
                     </div>
@@ -142,66 +124,49 @@
             </div>
             <!--End Header Lower-->
 
-
         </header>
         <!--End Main Header -->
 
-        <!--Page Title-->
-        <section class="page-title" style="background-image:url(images/background/7.jpg);">
-            <div class="auto-container">
-                <div class="inner-container clearfix">
-                    <h1>Our Team</h1>
-                    <ul class="bread-crumb clearfix">
-                        <li><a href="index.html">Home</a></li>
-                        <li>Our Team</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <!--End Page Title-->
+        
 
         <!-- Team Section -->
         <section class="team-section">
+            <style>
+                .team-section .row {
+                    display: flex;
+                    justify-content: center;
+                    /* Horizontalno centriranje */
+                    align-items: center;
+                    /* Vertikalno centriranje (ako je potrebno) */
+                    flex-wrap: wrap;
+                    /* Omogućava prelazak kartica u novi red ako ih ima više */
+                }
+
+                .team-block {
+                    margin: 15px;
+                    /* Razmak između kartica */
+                }
+            </style>
             <div class="auto-container">
+                <div class="sec-title text-center">
+                    <h2>Naš stručni tim</h2>
+                    <div class="text" style="font-size:1.5rem">Naš tim čine iskusni profesionalci <br>koji pružaju kvalitetne elektro usluge
+                    </div>
+                </div>
+
                 <div class="row">
                     <!-- Team block -->
-                    <div class="team-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="team.html"><img src="images/resource/team-1.jpg"
-                                            alt=""></a></figure>
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="info-box">
-                                <h5 class="name"><a href="#">Merry Joe</a></h5>
-                                <span class="designation">Project Manager</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Team block -->
                     <div class="team-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="team.html"><img src="images/resource/team-2.jpg"
-                                            alt=""></a></figure>
+                                <figure class="image"><a href="team.html"><img
+                                            src="images/Toma/Popravke i zamene/Toma1.jpg" alt="Električar"></a></figure>
                                 <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                                 </ul>
                             </div>
                             <div class="info-box">
-                                <h5 class="name"><a href="#">Robert Joe</a></h5>
-                                <span class="designation">Senior Worker</span>
+                                <h5 class="name"><a href="#">Tomislav Jovanović</a></h5>
+                                <span class="designation">Električar</span>
                             </div>
                         </div>
                     </div>
@@ -210,171 +175,24 @@
                     <div class="team-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><a href="team.html"><img src="images/resource/team-3.jpg"
-                                            alt=""></a></figure>
+                                <figure class="image"><a href="team.html"><img
+                                            src="images/Toma/Ivan.jpg" alt="Električar"></a></figure>
                                 <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
                                 </ul>
                             </div>
                             <div class="info-box">
-                                <h5 class="name"><a href="#">Jack Monika</a></h5>
-                                <span class="designation">Senior Worker</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Team block -->
-                    <div class="team-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="team.html"><img src="images/resource/team-4.jpg"
-                                            alt=""></a></figure>
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="info-box">
-                                <h5 class="name"><a href="#">Satlen Joe</a></h5>
-                                <span class="designation">Senior Worker</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Team block -->
-                    <div class="team-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="team.html"><img src="images/resource/team-5.jpg"
-                                            alt=""></a></figure>
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="info-box">
-                                <h5 class="name"><a href="#">Nioc Robert</a></h5>
-                                <span class="designation">Project Manager</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Team block -->
-                    <div class="team-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="team.html"><img src="images/resource/team-6.jpg"
-                                            alt=""></a></figure>
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="info-box">
-                                <h5 class="name"><a href="#">Nomi Noka</a></h5>
-                                <span class="designation">Senior Worker</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Team block -->
-                    <div class="team-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="team.html"><img src="images/resource/team-7.jpg"
-                                            alt=""></a></figure>
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="info-box">
-                                <h5 class="name"><a href="#">Monika Mathli</a></h5>
-                                <span class="designation">Senior Worker</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Team block -->
-                    <div class="team-block col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <figure class="image"><a href="team.html"><img src="images/resource/team-8.jpg"
-                                            alt=""></a></figure>
-                                <ul class="social-links">
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                </ul>
-                            </div>
-                            <div class="info-box">
-                                <h5 class="name"><a href="#">Rooma Mona</a></h5>
-                                <span class="designation">Senior Worker</span>
+                                <h5 class="name"><a href="#">Ivan Dobričević</a></h5>
+                                <span class="designation">Električar</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--End Team Section -->
+        <!-- End Team Section -->
 
-        <!--Clients Section-->
-        <section class="clients-section">
-            <div class="auto-container">
-                <!--Sponsors Carousel-->
-                <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!--End Clients Section-->
+
+        
 
         <!-- Main Footer -->
         <footer class="main-footer" style="background-image: url(images/background/3.jpg);">
